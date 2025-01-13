@@ -34,8 +34,8 @@ body {
 main {
     align-self: center;
     width: 375px;
-    margin-top: 50vh;
-    margin-bottom: 150px;
+    margin-top: 150px;
+    margin-bottom: 200px;
     background-color: var(--grey);
     border-radius: 20px;
     padding: 20px;
