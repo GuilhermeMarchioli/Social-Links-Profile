@@ -25,7 +25,7 @@
 
 body {
     display: flex;
-    background-color: var(--dark-grey);
+    background-image: linear-gradient(to left, #181818, #000000);
     justify-content: center;
     align-items: center;
     font-family: var(--font-normal);
@@ -88,6 +88,11 @@ section#links a:hover {
     background-color: var(--green);
     color: var(--dark-grey);
     transition-duration: 1s;
+}
+
+section#links a:active {
+    background-color: #7d9c20;
+    transition: all 1s;
 }
 
 .attribution {
